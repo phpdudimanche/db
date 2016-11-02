@@ -39,6 +39,13 @@ You or i have  just the lib to maintain. And to ensure this is correctly mainten
 ## Installation ##
  
  You have just to include this lib, as dir (or as a composer package - https://packagist.org/).
+ In your composer.json file in your root, add :
+>      "require": {
+>        "phpdudimanche/db": ""
+>     }
+
+ In your composer console write :   
+>     composer update
  
 ## Test ##
  
