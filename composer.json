@@ -3,5 +3,10 @@
     "description": "DB wrapper in PHP (pdo, mysqli)",
     "require": {
         "php": "^5.3.3 || ^7.0"
+    },
+	"autoload": {
+        "psr-0": {
+            "phpdudimanche\\db": "object/",
+        }
     }
 }
