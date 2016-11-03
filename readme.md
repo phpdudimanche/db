@@ -15,7 +15,8 @@ There are two versions :
 
 > $conn = connect(); 
 
-  - object DB with prepared statements : 
+  - object DB with prepared statements :  
+ 
 > $myDB= new $db;  
 > $connection=$myDB->connect();
  
