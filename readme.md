@@ -43,7 +43,15 @@ You or i have  just the lib to maintain. And to ensure this is correctly mainten
  In your composer.json file in your root, add :
 >      "require": {
 >        "phpdudimanche/db": "00.00"
->     }
+>     },
+>     	"autoload": {
+>		"psr-4": {
+>			"Phpdudimanche\\Db\\": "phpdudimanche/poo/"
+>			}
+>		}
+
+
+
 
  In your composer console write :   
 >     composer update
